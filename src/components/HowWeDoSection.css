@@ -1,0 +1,155 @@
+.how-we-do-section {
+  padding: 80px 50px;
+  background-color: #000;
+  color: #fff;
+  background-image: url('../assets/services-bg.svg');
+  background-repeat: repeat;
+}
+
+.how-we-do-title {
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+.process-cards-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.card-and-button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.process-card {
+  width: 350px;
+  min-height: 450px;
+  background-color: rgba(46, 51, 90, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0px 0px 100px rgba(204, 215, 255, 0.25);
+  filter: drop-shadow(0px 5px 10px rgba(0, 0, 0, 0.05));
+  border-radius: 40px;
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #ff0000;
+  text-align: center;
+  width: 100%;
+}
+
+.card-content-wrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.card-content p {
+  font-size: 18px;
+  color: #ccc;
+  margin-bottom: 10px;
+}
+
+.card-content .content-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 20px;
+}
+
+.card-content ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+.card-content ul li {
+  color: #ccc;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.learn-more-btn {
+  background: transparent;
+  border: none;
+  color: #ACD5FC;
+  font-size: 16px;
+  border-radius: 20px;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.seamless-integration-banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1), inset 0 0 10px rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.integration-text {
+  font-size: 18px;
+  color: #ddd;
+}
+
+.integration-logos-row {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  align-items: center;
+  padding-left: 50px;
+}
+
+.logo-with-name {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.logo-with-name img {
+  height: 24px;
+  width: auto;
+  margin-bottom: 5px;
+}
+
+.logo-with-name p {
+  margin: 0;
+  font-size: 12px;
+}
+
+@media (max-width: 1200px) {
+  .process-card {
+    width: 300px;
+  }
+}
+
+@media (max-width: 960px) {
+  .process-cards-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .process-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}

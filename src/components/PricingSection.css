@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
+
+.pricing-section {
+  padding: 80px 50px;
+  background-color: #0a0217;
+  color: #fff;
+  text-align: center;
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+}
+
+.pricing-title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.pricing-subtitle {
+  font-size: 16px;
+  color: #ccc;
+  margin-bottom: 50px;
+}
+
+.pricing-image-container {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.pricing-table-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.3);
+}

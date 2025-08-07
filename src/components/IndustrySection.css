@@ -1,0 +1,42 @@
+.industry-section {
+  padding: 80px 50px;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-image: url('../assets/industry-bg.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.industry-title {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.industry-bg-container {
+  width: 100%;
+  max-width: 800px;
+  height: 600px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 40px;
+}
+
+.industry-button {
+  border-radius: 25px;
+  padding: 15px 30px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 60px;
+}
+
+.industry-next-title {
+  font-size: 36px;
+  color: #fff;
+  margin-top: 20px;
+}

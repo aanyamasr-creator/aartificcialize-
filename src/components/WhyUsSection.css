@@ -1,0 +1,60 @@
+.why-us-section {
+  background-color: #0a0217;
+  background-image: url('../assets/why-us.svg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: #fff;
+  padding: 80px 50px;
+}
+
+.why-us-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.why-us-text {
+  flex: 1;
+  padding-right: 40px;
+}
+
+.why-us-title {
+  font-size: 36px;
+  margin-bottom: 30px;
+}
+
+.why-us-point {
+  margin-bottom: 25px;
+}
+
+.point-title {
+  color: #e63946;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.point-description {
+  font-size: 16px;
+  color: #ddd;
+}
+
+.why-us-bottom-text {
+  text-align: center;
+  font-size: 24px;
+  margin-top: 60px;
+  color: #ccc;
+}
+
+@media (max-width: 960px) {
+  .why-us-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .why-us-text {
+    padding-right: 0;
+    margin-bottom: 40px;
+  }
+}

@@ -1,0 +1,106 @@
+/* Base styles */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  color: #fff;
+  background-color: #000;
+  position: relative;
+}
+
+.logo-container .logo {
+  height: 50px;
+}
+
+.nav-menu a {
+  color: #fff;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  transition: color 0.3s ease;
+  font-family: 'FutoSans-Medium', sans-serif;
+}
+
+.nav-menu a:hover {
+  color: #ff0000;
+}
+
+/* Hide hamburger menu on desktop */
+.hamburger-menu {
+  display: none;
+}
+
+/* Professional & Luxurious mobile styles */
+@media (max-width: 768px) {
+  .header {
+    padding: 20px;
+  }
+
+  .logo-container .logo {
+    height: 40px;
+  }
+
+  /* Show hamburger menu on mobile */
+  .hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 20;
+  }
+
+  .hamburger-menu .bar {
+    width: 100%;
+    height: 3px;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .hamburger-menu .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger-menu .bar.open:nth-child(1) {
+    transform: translateY(11px) rotate(45deg);
+  }
+  .hamburger-menu .bar.open:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger-menu .bar.open:nth-child(3) {
+    transform: translateY(-11px) rotate(-45deg);
+  }
+
+  /* The drawable menu */
+  .nav-menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 250px;
+    height: 100vh;
+    background-color: #111;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 80px;
+    transition: right 0.3s ease-in-out;
+    z-index: 10;
+  }
+
+  .nav-menu.open {
+    right: 0;
+    box-shadow: -5px 0 15px rgba(0, 0, 0, 0.5);
+  }
+
+  .nav-menu a {
+    margin: 15px 30px;
+    font-size: 18px;
+    width: calc(100% - 60px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
