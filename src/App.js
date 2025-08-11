@@ -9,7 +9,7 @@ import WhyUsSection from './components/WhyUsSection';
 import IndustrySection from './components/IndustrySection';
 import HowWeDoSection from './components/HowWeDoSection';
 import LetsTalkSection from './components/LetsTalkSection';
-import PricingSection from './components/PricingSection';
+// import PricingSection from './components/PricingSection';
 
 function App() {
   return (
@@ -28,9 +28,9 @@ function App() {
       </section>
 
       {/* Section 3 */}
-      <section id="section-3" className="page-section">
+      {/* <section id="section-3" className="page-section">
        <CardGridSection />
-      </section>
+      </section> */}
 
       {/* Section 4 */}
       <section id="section-4" className="page-section">
@@ -48,9 +48,9 @@ function App() {
       </section>
 
       {/* Section 7 */}
-      <section id="section-7" className="page-section">
+      {/* <section id="section-7" className="page-section">
         <PricingSection/>
-      </section>
+      </section> */}
       {/* Section 8 */}
       <section id="section-8" className="page-section">
         <LetsTalkSection />
